@@ -1,7 +1,9 @@
 <script setup lang="ts">
-  import { tg } from '@/consts/telegramBot';
+  import { webApp } from '@/consts/telegramBot';
 
-  const onClose = () => tg.close();
+  const onClose = () => {
+    webApp.close();
+  }
 </script>
 
 <template>
