@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue';
 
-const message = ref('You did it! ');
 </script>
 
 <template>
